@@ -1,0 +1,10 @@
+[lcl-host]
+realm-apid = 'localhost'
+
+[org]
+apid = 'prasannashoban'
+
+[service]
+apid = 'nextjs-dashboard'
+category = 'javascript'
+cert-style = 'acme'

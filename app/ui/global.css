@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* 
+body {
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* .Creating_A_New_Account{
+  background-color: #fff;
+} */
+
+/* Display: none will hide the check box*/
+/* #ch {
+  display: none;
+} */
+
+/* When the checkbox is checked, the content will be displayed */
+#ch:checked ~ .Creating_A_New_Account_content {
+  display: block;
+}
+
+.Creating_A_New_Account_content{
+display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  /* background-color: #3da072; */
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+/*-------------------------------------------------------------------*/
+/* ch1 checkbox ID and hidden*/
+#ch1 {
+  display:none
+}
+/* Hide contect for the block 1 */
+.chapter1{
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch1:checked ~ .chapter1 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch2 checkbox ID and hidden*/
+#ch2 {
+  display:none
+}
+/* Hide contect for the block 1 */
+.chapter2{
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch2:checked ~ .chapter2 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch3 checkbox ID and hidden*/
+#ch3 {
+  display:none
+}
+/* Hide contect for the block 1 */
+.chapter3{
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch3:checked ~ .chapter3 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch4 checkbox ID and hidden*/
+#ch4 {
+  display:none
+}
+/* Hide contect for the block 1 */
+.chapter4{
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch4:checked ~ .chapter4 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch5 checkbox ID and hidden*/
+#ch5 {
+  display: none;
+}
+/* Hide content for the block 5 */
+.chapter5 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch5:checked ~ .chapter5 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch6 checkbox ID and hidden*/
+#ch6 {
+  display: none;
+}
+/* Hide content for the block 6 */
+.chapter6 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch6:checked ~ .chapter6 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch7 checkbox ID and hidden*/
+#ch7 {
+  display: none;
+}
+/* Hide content for the block 7 */
+.chapter7 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch7:checked ~ .chapter7 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch8 checkbox ID and hidden*/
+#ch8 {
+  display: none;
+}
+/* Hide content for the block 8 */
+.chapter8 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch8:checked ~ .chapter8 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch9 checkbox ID and hidden*/
+#ch9 {
+  display: none;
+}
+/* Hide content for the block 9 */
+.chapter9 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch9:checked ~ .chapter9 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch10 checkbox ID and hidden*/
+#ch10 {
+  display: none;
+}
+/* Hide content for the block 10 */
+.chapter10 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch10:checked ~ .chapter10 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/
+/* ch11 checkbox ID and hidden*/
+#ch11 {
+  display: none;
+}
+/* Hide content for the block 11 */
+.chapter11 {
+  display: none;
+}
+/* When the checkbox is checked, the content will be displayed */
+#ch11:checked ~ .chapter11 {
+  display: block;
+}
+/*-------------------------------------------------------------------*/

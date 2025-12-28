@@ -1,0 +1,13 @@
+.shape{
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid rgb(175, 11, 11);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.container {
+    background-image: url('/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust as needed */
+  }

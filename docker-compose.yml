@@ -1,0 +1,4 @@
+volumes:
+  - ./7horse:/usr/src/app # named volume
+  - /usr/src/app/node_modules/.pnpm # anonymous volume for node_modules only
+  - ./public/images:/app/public/images
